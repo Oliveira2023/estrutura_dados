@@ -4,9 +4,14 @@ frutas = ['maca', 'banana', 'laranja']
 print(frutas)
 
 frutas.append('uva')
+frutas.insert(2, 'abacaxi')
 print(frutas)
-frutas.remove
-len(frutas)
+print('removendo:',frutas.remove('laranja')) #remove e não retorna o elemento removido
+print('removendo:',frutas.pop(1))
+print('maca' in frutas)
+print(frutas)
+print(len(frutas))
+print()
 #tuplas sao imutaveis
 tupla = ('maca', 'banana', 'laranja')
 tupla2 = "sempre", "uma", "tupla"
