@@ -8,7 +8,7 @@ class item:
     
 class Pilha:
     def __init__(self):
-        self.head = None #cria uma plha vazia com o head que indica o topo da pilha
+        self.head = None #cria uma pilha vazia com o head que indica o topo da pilha
 
     def __repr__(self):
         return "%s" % (self.head)
@@ -35,8 +35,8 @@ def main():
     # print("head:",pilha.head, 'tail:',pilha.head.anterior)
     pilha.push("d")
     print(pilha)
-    # pilha.pop()
-    # pilha.pop()
+    pilha.pop()
+    pilha.pop()
     print(pilha)
 
 main()
